@@ -20,14 +20,14 @@ ________________________________________________________________________________
 
 ##### Optional
 
-  ###### a) Automating Script through Cloudwatch
+##### a) Automating Script through Cloudwatch
   
   *   Navigate to Event Source.
   *   Click Add new Event source and Choose Event type as - `Cloudwatch Events- Schedule`.
   *   Add Rule name, Description and Schedule Expression as `cron(30 14 ? * MON-FRI *)` which represents Cron job Schedule to be  followed MON-FRI at 14:30 UTC.
   *   Enable the source and this script will start all instances tagged @ 14:30.
   
-  ###### b) Creating API through API-Gateway
+##### b) Creating API through API-Gateway
   
   *   Goto API-gateway from aws console.
   *   Click on `CreateAPI`
