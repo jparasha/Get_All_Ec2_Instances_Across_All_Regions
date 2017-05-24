@@ -4,10 +4,10 @@
 [The Script](https://github.com/jparasha/Get_All_Ec2_Instances_Across_All_Regions/blob/master/getInstances.js) runs across all AWS regions and makes API Call       `DescribeInstances()`, to get the instances.
 _______________________________________________________________________________________________________________________________________
 #### getInstances function:
-  -  [Steps](https://github.com/jparasha/Get_All_Ec2_Instances_Across_All_Regions/new/master?readme=1#steps)
+  -  [Steps](https://github.com/jparasha/Get_All_Ec2_Instances_Across_All_Regions/tree/master#steps)
   
-  -  [IAM Roles](https://github.com/jparasha/Get_All_Ec2_Instances_Across_All_Regions/blob/master/README.md#required-iam-roles-for-lambda-function)
-  -  [Optionals (API gateway and Cloudwatch Automation)](https://github.com/jparasha/Get_All_Ec2_Instances_Across_All_Regions/new/master?readme=1#Optional)
+  -  [IAM Roles](https://github.com/jparasha/Get_All_Ec2_Instances_Across_All_Regions/tree/master#required-iam-roles-for-lambda-function)
+  -  [Optionals (API gateway and Cloudwatch Automation)](https://github.com/jparasha/Get_All_Ec2_Instances_Across_All_Regions/tree/master#optional)
 
 _______________________________________________________________________________________________________________________________________
   
