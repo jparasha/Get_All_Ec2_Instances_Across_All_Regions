@@ -87,8 +87,7 @@ exports.handler = (event, context, callback) => {
         } else if (callBackCount == 10 && viewThisData[0] !== undefined) {
             console.log(JSON.stringify(response));
             var local = JSON.stringify(response, undefined, 3);
-            var html =local;
-            callback(null, html);
+            callback(null, local);
         } else {
             //console.log("operation pending across few regions");
         }
