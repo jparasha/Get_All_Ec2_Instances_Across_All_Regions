@@ -25,30 +25,30 @@ ________________________________________________________________________________
       *   Add Rule name, Description and Schedule Expression as `cron(30 14 ? * MON-FRI *)` which represents Cron job Schedule to be  followed MON-FRI at 14:30 UTC.
       *   Enable the source and this script will start all instances tagged @ 14:30.
   ###### b) Creating API through API-Gateway
-      * Goto API-gateway from aws console.
-      * Click on `CreateAPI`
-      * Select `New API` and name your API.
-      * Click on `Resources` under your created API and you will see `/`
-      * Now click on `Actions` button and select `Create Method`
-      * In the dropdown, choose `GET` and click ok.
-      * In the GET-Setup choose `Integration Type` as Lambda Funciton
-      * Select Lambda Region and the name of above function just created.
-      * Submit and accept the permission request.
-      * Now Click on your created `GET` method.
-      * Select `Integration Request`
-      * Click on `BODY MAPPING TEMPLATES`.
-      * Under `Request body Passthrough` choose `When there are no templates defined`
-      * Now, under `content-type` click `Add Mapping template`
-      * In the input-box , type "application/json" (without quotes) and click ok
-      * Now click on "applicatio/json" and template body will show up at the bottom
-      * In the generate template dropdown click `Method Request passthrough`
-      * Save the code.
-      * Go back to  `GET` and click on `Test` 
-      * if the callback is successful it will show data.
-      * Once the call back is successful, goto `Actions` button and select `Deploy API`
-      * Give a Stage name and click Deploy.
-      * Goto your API name and got dashboard to see the `API URL`!
-      * Do remember to secure your api through keys in Production environments
+      *  Goto API-gateway from aws console.
+      *  Click on `CreateAPI`
+      *  Select `New API` and name your API.
+      *  Click on `Resources` under your created API and you will see `/`
+      *  Now click on `Actions` button and select `Create Method`
+      *  In the dropdown, choose `GET` and click ok.
+      *  In the GET-Setup choose `Integration Type` as Lambda Funciton
+      *  Select Lambda Region and the name of above function just created.
+      *  Submit and accept the permission request.
+      *  Now Click on your created `GET` method.
+      *  Select `Integration Request`
+      *  Click on `BODY MAPPING TEMPLATES`.
+      *  Under `Request body Passthrough` choose `When there are no templates defined`
+      *  Now, under `content-type` click `Add Mapping template`
+      *  In the input-box , type "application/json" (without quotes) and click ok
+      *  Now click on "applicatio/json" and template body will show up at the bottom
+      *  In the generate template dropdown click `Method Request passthrough`
+      *  Save the code.
+      *  Go back to  `GET` and click on `Test` 
+      *  if the callback is successful it will show data.
+      *  Once the call back is successful, goto `Actions` button and select `Deploy API`
+      *  Give a Stage name and click Deploy.
+      *  Goto your API name and got dashboard to see the `API URL`!
+      *  Do remember to secure your api through keys in Production environments
 
 
 ### Required IAM Roles for Lambda Function:
