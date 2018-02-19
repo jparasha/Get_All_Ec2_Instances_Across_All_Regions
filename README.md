@@ -1,5 +1,5 @@
 # Get_All_Ec2_Instances_Across_All_Regions
-
+###### !Updated code coming soon!
 ###### An AWS Lambda function is needed to run.
 [The Script](https://github.com/jparasha/Get_All_Ec2_Instances_Across_All_Regions/blob/master/getInstances.js) runs across all AWS regions and makes API Call       `DescribeInstances()`, to get the instances.
 
